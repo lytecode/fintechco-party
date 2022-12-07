@@ -8,7 +8,9 @@
     "dev": "nodemon src/index.ts",
     "consumer-dev": "nodemon src/consumer.ts",
     "start": "node dist/src/index.js",
-    "start:consumer": "node dist/src/consumer.js"
+    "start:consumer": "node dist/src/consumer.js",
+    "up": "docker-compose up",
+    "down": "docker-compose down"
   },
   "keywords": [],
   "author": "",
