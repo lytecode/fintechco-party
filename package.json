@@ -13,7 +13,7 @@
     "down": "docker-compose down"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mbonu Basil",
   "license": "ISC",
   "devDependencies": {
     "@types/amqplib": "^0.10.0",
