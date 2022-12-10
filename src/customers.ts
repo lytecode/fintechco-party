@@ -59,11 +59,6 @@ class Customers {
         try {
             await channel.assertQueue(queue, { durable: true });
             await channel.sendToQueue(queue, Buffer.from(msg));
-
-            setTimeout(function () {
-                channel.close();
-                connection.close();
-            }, 500);
         } catch (error) {
             console.log('ERROR => ', error);
         }
